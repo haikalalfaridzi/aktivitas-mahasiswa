@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" 
+            xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="Controller.MahasiswaController"
+            prefWidth="800" prefHeight="500">
+    
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+    
+    <!-- Title -->
+    <Label text="Aplikasi Data Mahasiswa" style="-fx-font-size: 18px; -fx-font-weight: bold;" 
+           layoutX="10" layoutY="10"/>
+    
+    <!-- Form Input -->
+    <VBox layoutX="10" layoutY="40" spacing="10">
+        <HBox spacing="10">
+            <VBox spacing="5">
+                <Label text="NIM:"/>
+                <TextField fx:id="txtNim" prefWidth="200"/>
+            </VBox>
+            <VBox spacing="5">
+                <Label text="Nama:"/>
+                <TextField fx:id="txtNama" prefWidth="200"/>
+            </VBox>
+            <VBox spacing="5">
+                <Label text="Aktivitas:"/>
+                <TextField fx:id="txtAttributes" prefWidth="200"/>
+            </VBox>
+        </HBox>
+        
+        <!-- Buttons -->
+        <HBox spacing="10">
+            <Button text="Tambah" onAction="#handleAddMahasiswa" prefWidth="80"/>
+            <Button text="Edit" onAction="#handleEditMahasiswa" prefWidth="80"/>
+            <Button text="Hapus" onAction="#handleDeleteMahasiswa" prefWidth="80"/>
+            <Button text="Clear" onAction="#clearFields" prefWidth="80"/>
+        </HBox>
+    </VBox>
+    
+    <!-- Table View -->
+    <TableView fx:id="tvMahasiswa" layoutX="10" layoutY="150" prefWidth="780" prefHeight="300">
+        <columns>
+            <TableColumn fx:id="colNim" text="NIM" prefWidth="150"/>
+            <TableColumn fx:id="colNama" text="Nama" prefWidth="200"/>
+            <TableColumn fx:id="colAttributes" text="Aktivitas" prefWidth="430"/>
+        </columns>
+    </TableView>
+    
+</AnchorPane>

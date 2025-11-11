@@ -1,0 +1,62 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+@argfile
+--no-fonts
+-classpath
+'C:/Users/arraf/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1.jar;C:/Users/arraf/.m2/repository/org/openjfx/javafx-controls/21.0.1/javafx-controls-21.0.1-win.jar;C:/Users/arraf/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1.jar;C:/Users/arraf/.m2/repository/org/openjfx/javafx-graphics/21.0.1/javafx-graphics-21.0.1-win.jar;C:/Users/arraf/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1.jar;C:/Users/arraf/.m2/repository/org/openjfx/javafx-base/21.0.1/javafx-base-21.0.1-win.jar;C:/Users/arraf/.m2/repository/org/openjfx/javafx-fxml/21.0.1/javafx-fxml-21.0.1.jar;C:/Users/arraf/.m2/repository/org/openjfx/javafx-fxml/21.0.1/javafx-fxml-21.0.1-win.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/arraf/Downloads/belajar java/src/main/java;C:/Users/arraf/Downloads/belajar java/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/arraf/Downloads/belajar java/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BelajarJava 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'BelajarJava 1.0-SNAPSHOT API'
+Controller
+Model
+'C:/Users/arraf/Downloads/belajar java/src/main/java/Main.java'
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-controls\21.0.1\javafx-controls-21.0.1.jar = 1762835491482
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-controls\21.0.1\javafx-controls-21.0.1-win.jar = 1762835492426
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-graphics\21.0.1\javafx-graphics-21.0.1.jar = 1762835491626
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-graphics\21.0.1\javafx-graphics-21.0.1-win.jar = 1762835493496
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-base\21.0.1\javafx-base-21.0.1.jar = 1762835491544
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-base\21.0.1\javafx-base-21.0.1-win.jar = 1762835491895
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-fxml\21.0.1\javafx-fxml-21.0.1.jar = 1762835491639
+C:\Users\arraf\.m2\repository\org\openjfx\javafx-fxml\21.0.1\javafx-fxml-21.0.1-win.jar = 1762835491894
+C:\Users\arraf\Downloads\belajar java\src\main\java\Main.java = 1762839830018
+C:\Users\arraf\Downloads\belajar java\src\main\java = 1762820253000
+C:\Users\arraf\Downloads\belajar java\target\generated-sources\annotations = 1762851430518
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\allclasses-index.html = 1762851433827
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\allpackages-index.html = 1762851433829
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\element-list = 1762851433753
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\help-doc.html = 1762851433856
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\index-all.html = 1762851433845
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\index.html = 1762851433814
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\Main.html = 1762851433751
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\member-search-index.js = 1762851433835
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\module-search-index.js = 1762851433831
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\overview-summary.html = 1762851433850
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\overview-tree.html = 1762851433809
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\package-search-index.js = 1762851433832
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\package-summary.html = 1762851433760
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\package-tree.html = 1762851433765
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\package-use.html = 1762851433799
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\search.html = 1762851433848
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\tag-search-index.js = 1762851433837
+C:\Users\arraf\Downloads\belajar java\target\reports\apidocs\type-search-index.js = 1762851433834
